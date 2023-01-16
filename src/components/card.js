@@ -26,7 +26,7 @@ const Card= ()=>{
             </div>
             <div className="card_item" >
                 <div className="card_img" >
-                <img src={require('../assets/images/signup.png')} height={100} width={100} />
+                <img src={require('../assets/images/signup.png')} alt='' height={100} width={100} />
                 </div>
                 <div className="card_text" >
                 <h4>Item-1</h4>

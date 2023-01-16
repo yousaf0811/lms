@@ -50,13 +50,8 @@ const StudentSignUp = () => {
             setPassword(value);
         }
       };
-
-    // const handleClick = () => {
-    //     navigate('/studentlogin')};
         
         const handleSubmit = async () => {
-          // event.preventDefault();
-        // console.log(name);
         if(!firstName ) { alert('Fill the empty input fields');  return }; 
         const user = {
             firstName,
@@ -85,29 +80,7 @@ const StudentSignUp = () => {
         }else{
             navigate('/')
         }
-    // localStorage.setItem('name', JSON.stringify(user.firstName));
-        // fetch('http://localhost:3010/student',{
-        //     method : "POST",
-        //     headers : {
-        //         "Content-Type" : "application/json"
-        //     },
-        //     body : JSON.stringify(user)
-        // }).then(resp => resp.json()).then(info => handleClick() );
       };
-
-    //   const user = {
-    //     firstName,
-    //     lastName,
-    //     fatherName,
-    //     address,
-    //     gender,
-    //     dob,
-    //     state,
-    //     city,
-    //     course,
-    //     email,
-    //     password
-    //   };
     return (
         <div>
             <StudentNavbarSignup/>
@@ -121,7 +94,6 @@ const StudentSignUp = () => {
                                      <img src="https://images.unsplash.com/photo-1537181534458-45dcee76ae90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
                                          alt="Sample" class="img-fluid" height="800px" 
                                          style={{borderTopLeftRadius: ".25rem"}}/>
-                                         {/* style={{borderBottomLeftRadius: ".25rem"}}  */}
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="card-body p-md-5 text-black">

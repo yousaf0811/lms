@@ -46,7 +46,7 @@ const TeacherLogin = ()=>{
         <div>
                         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
-                    <a class="navbar-brand me-2" href="#">
+                    <a class="navbar-brand me-2" href="/">
                         <img
                             src="https://images.unsplash.com/photo-1670602328279-82c100b3dfa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             height="16"
@@ -69,13 +69,13 @@ const TeacherLogin = ()=>{
                     <div class="collapse navbar-collapse" id="navbarButtonsExample">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="/">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="/">Contact Us</a>
                             </li>
                         </ul>
                         

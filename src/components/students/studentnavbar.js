@@ -1,8 +1,8 @@
-import { useNavigate } from "react-router-dom"
+// import { useNavigate } from "react-router-dom"
 import Logo from '../../assets/images/logo.png'
 
 const SNavbar = () => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const handleLogOut = () => {
         localStorage.clear();
         window.location.replace('/')

@@ -21,7 +21,7 @@ const Fee = () => {
                         <button type="button" class="btn btn-warning" onClick={() => { navigate('/studentsignup') }} >Register Now</button>
                     </div>
                     <div className="fee-body-img" >
-                        <img src={require('../../assets/images/pay.png')} height={400} width={400} />
+                        <img src={require('../../assets/images/pay.png')} alt='' height={400} width={400} />
                     </div>
                 </div>
                 <div className="fee-points" >
@@ -41,8 +41,8 @@ const Fee = () => {
                         <li>Multi Payment Options.</li>
                         <li>Quran-Edu is providing Free Quran Classes for those who can’t afford to pay for our premium classes.</li>
                         <li>With our Free Quran Classes you can access our all futures that are available for premium members so, feel free to register yourself for Free Quran Classes.</li>
-                        <p>If you have any further queries, please do not hesitate to <a>contact with us.</a></p>
-                        <br></br>
+                        <p>If you have any further queries, please do not hesitate to <a href="/home" >contact with us.</a></p>
+                        <br></br >
                         <button type="button" class="btn btn-warning" onClick={() => { navigate('/contactus') }} >Contact Us</button>
                     </div>
                 </div>

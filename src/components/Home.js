@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom"
 import Navbar from "./component/navbar";
 import Footer from "./component/footer";
 // import body_photo from '../../assets/images/body_photo.jpg'
-import body_photo from '../assets/images/body_photo.jpg'
+// import body_photo from '../assets/images/body_photo.jpg'
 const Home = () => {
   const navigate = useNavigate();
   return (

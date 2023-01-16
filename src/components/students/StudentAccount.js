@@ -10,7 +10,7 @@ const StudentAccount = () => {
     .then((responce)=>responce.json())
     .then((json)=>{setStudent(json);
     })
-   },[]);
+   },);
    const handleLogOut = () => {
     localStorage.clear();
     window.location.replace('/')
